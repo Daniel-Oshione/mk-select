@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: "Bodoni Moda SC", serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    padding: 5px;
+}
+.character1{
+    background-image: url(../img/scorpion.jpg);
+    background-size: cover;
+    width: 100vw;
+    align-content: center;
+}
+.character2{
+    background-image: url(../img/zero.jpg);
+    background-size: cover;
+    width: 100vw;
+    align-content: center;
+}
+.character3{
+    background-image: url(../img/cassie.jpg);
+    background-size: cover;
+    width: 100vw;
+    align-content: center;
+}
+.character4{
+    background-image: url(../img/kang.jpg);
+    background-size: cover;
+    width: 100vw;
+    align-content: center;
+}
+.character5{
+    background-image: url(../img/johnny.jpg);
+    background-size: cover;
+    width: 100vw;
+    align-content: center;
+}
+.character6{
+    background-image: url(../img/raiden.jpg);
+    background-size: cover;
+    width: 100vw;
+    align-content: center;
+}
+.icons button img{
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.icons button{
+border-radius: 30px;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
 }
