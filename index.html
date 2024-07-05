@@ -7,50 +7,54 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="main-container">
     <div class="container">
-        <div class="character1">
+        <div class="character1" id="Hanzo">
+            <img src="./img/logo/wallpaperflare.com_wallpaper__9_-removebg-preview.png" alt="" class="logo">
             <div class="description">
               <h1>
                    Hanzo Hasashi
               </h1>
               <div class="stats">
-                <p>Speed <br>
-                ________________
+                <p>Speed<br>
+                <span>________________</span>
                 </p>
                 <p>Magic <br>
-                ______________________
+                <span>______________________</p></span>
                 </p>
                 <p>Strength <br>
-                _____________________________
+                <span>_____________________________</span>
                 </p>
                 <p>Endurance <br>
-                ____________________
+                <span>____________________</span>
                 </p>
               </div>
             </div>
         </div>
-        <div class="character2" style="display: none;">
+        <div class="character2" style="display: none;" id="sub">
+          <img src="./img/logo/wallpaperflare.com_wallpaper__9_-removebg-preview.png" alt="" class="logo">
             <div class="description">
             <h1>
                  SubZero
             </h1>
             <div class="stats">
               <p>Speed <br>
-              ________________________
+                <span>________________________</span>
               </p>
               <p>Magic <br>
-              ______________________
+                <span>______________________</span>
               </p>
               <p>Strength <br>
-              __________________
+                <span>__________________</span>
               </p>
               <p>Endurance <br>
-              _________________________
+                <span>_________________________</span>
               </p>
             </div>
           </div>
         </div>
-        <div class="character3"  style="display: none;">
+        <div class="character3"  style="display: none;" id="cage">
+          <img src="./img/logo/wallpaperflare.com_wallpaper__9_-removebg-preview.png" alt="" class="logo">
             <div class="description">
             <h1>
                  Cassie Cage
@@ -71,7 +75,8 @@
             </div>
           </div>
         </div>
-        <div class="character4"  style="display: none;">
+        <div class="character4"  style="display: none;" id="kang">
+          <img src="./img/logo/wallpaperflare.com_wallpaper__9_-removebg-preview.png" alt="" class="logo">
             <div class="description">
             <h1>
                  Liu Kang
@@ -92,7 +97,8 @@
             </div>
           </div>
         </div>
-        <div class="character5"  style="display: none;">
+        <div class="character5"  style="display: none;" id="john">
+          <img src="./img/logo/wallpaperflare.com_wallpaper__9_-removebg-preview.png" alt="" class="logo">
             <div class="description">
             <h1>
                  Johnny Cage
@@ -113,7 +119,8 @@
             </div>
           </div>
         </div>
-        <div class="character6"  style="display: none;">
+        <div class="character6"  style="display: none;" id="raiden">
+          <img src="./img/logo/wallpaperflare.com_wallpaper__9_-removebg-preview.png" alt="" class="logo">
             <div class="description">
             <h1>
                  Raiden
@@ -136,13 +143,14 @@
         </div>
     </div>
     <div class="icons">
-           <button><img src="./img/scorpion.jpg" alt=""></button>
-           <button><img src="./img/zero.jpg" alt=""></button>
-           <button><img src="./img/cassie.jpg" alt=""></button>
-           <button><img src="./img/kang.jpg" alt=""></button>
-           <button><img src="./img/johnny.jpg" alt=""></button>
-           <button><img src="./img/raiden.jpg" alt=""></button>
+           <button onclick="showContent('Hanzo')"><img src="./img/scorpion.jpg" alt="" class="iconorange"></button>
+           <button onclick="showContent('sub')"><img src="./img/zero.jpg" alt="" class="iconblue"></button>
+           <button onclick="showContent('cage')"><img src="./img/cassie.jpg" alt="" class="iconpink"></button>
+           <button onclick="showContent('kang')"><img src="./img/kang.jpg" alt="" class="iconred"></button>
+           <button onclick="showContent('john')"><img src="./img/johnny.jpg" alt="" class="icongreen"></button>
+           <button onclick="showContent('raiden')"><img src="./img/raiden.jpg" alt="" class="iconwhite"></button>
     </div>
+</div>
 </body>
 <script src="index.js"></script>
 </html>

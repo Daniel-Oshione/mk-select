@@ -8,52 +8,82 @@ body{
     background-color: black;
     color: white;
 }
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 45%;
+}
 .container{
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    padding: 5px;
+    padding: 5px 0;
+    margin-bottom: -13px;
+}
+.description{
+    padding: 0 0 140px 100px;
+    font-weight: 900;
+    font-size: 20px;
+}
+span{
+    
 }
 .character1{
     background-image: url(../img/scorpion.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
     align-content: center;
+    box-shadow:  2px 2px 1px orangered, -10px -5px 20px 1px orangered;
 }
 .character2{
     background-image: url(../img/zero.jpg);
     background-size: cover;
     width: 100vw;
     align-content: center;
+    box-shadow:  2px 2px 1px rgb(111, 111, 255), -10px -5px 20px 1px rgb(111, 111, 255);
 }
 .character3{
     background-image: url(../img/cassie.jpg);
     background-size: cover;
     width: 100vw;
     align-content: center;
+    box-shadow:  2px 2px 1px rgb(255, 48, 82), -10px -5px 20px 1px rgb(255, 48, 82);
 }
 .character4{
     background-image: url(../img/kang.jpg);
     background-size: cover;
     width: 100vw;
     align-content: center;
+    box-shadow:  2px 2px 1px red, -10px -5px 20px 4px red;
 }
 .character5{
     background-image: url(../img/johnny.jpg);
     background-size: cover;
     width: 100vw;
     align-content: center;
+    box-shadow:  2px 2px 1px green, -10px -5px 20px 1px green;
 }
 .character6{
     background-image: url(../img/raiden.jpg);
     background-size: cover;
     width: 100vw;
     align-content: center;
+    box-shadow:  2px 2px 1px rgb(0, 221, 255), -10px -5px 20px 1px rgb(0, 221, 255);
+}
+.icons{
+    padding: 13px;
 }
 .icons button img{
     width: 180px;
     height: 120px;
     object-fit: cover;
     border-radius: 30px;
+    filter: brightness(0.2);
+}
+.icons button img:hover{
+    filter: brightness(2.5);
+    transition: 500ms;
 }
 .icons button{
 border-radius: 30px;
@@ -64,4 +94,22 @@ cursor: pointer;
 .icons{
     display: flex;
     justify-content: space-evenly;
+}
+.iconorange:hover{
+    box-shadow:  1px 1px 12px 1px rgb(255, 38, 0), 1px 1px 12px 1px rgb(255, 38, 0);
+}
+.iconblue:hover{
+    box-shadow:  1px 1px 12px 1px rgb(111, 111, 255), 1px 1px 12px 1px rgb(111, 111, 255);
+}
+.iconpink:hover{
+    box-shadow:  1px 1px 12px 1px  rgb(255, 48, 82), 1px 1px 12px 1px  rgb(255, 48, 82);
+}
+.iconred:hover{
+    box-shadow:  1px 1px 12px 1px red, 1px 1px 12px 1px red;
+}
+.icongreen:hover{
+    box-shadow:  1px 1px 12px 1px green, 1px 1px 12px 1px green;
+}
+.iconwhite:hover{
+    box-shadow:  1px 1px 12px 1px rgb(0, 221, 255), 1px 1px 12px 1px rgb(0, 221, 255);
 }
